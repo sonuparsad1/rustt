@@ -1,0 +1,46 @@
+# =====================================================
+# C LANGUAGE
+# =====================================================
+
+# TYPE 1: NORMAL RUN (NO DEBUGGER)
+gcc main.c -o main
+./main
+# one-line
+gcc main.c -o main && ./main
+
+
+# TYPE 2: DEBUG RUN (WITH GDB)
+gcc -g main.c -o main
+gdb ./main
+# inside gdb
+run        # r
+break main # optional
+next       # n
+step       # s
+print x    # p x
+continue   # c
+quit       # q
+
+
+# =====================================================
+# C++ LANGUAGE
+# =====================================================
+
+# TYPE 1: NORMAL RUN (NO DEBUGGER)
+g++ main.cpp -o main
+./main
+# one-line
+g++ main.cpp -o main && ./main
+
+
+# TYPE 2: DEBUG RUN (WITH GDB)
+g++ -g main.cpp -o main
+gdb ./main
+# inside gdb
+run        # r
+break main # optional
+next       # n
+step       # s
+print x    # p x
+continue   # c
+quit       # q
