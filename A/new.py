@@ -3,9 +3,6 @@ ops = ["5","2","C","D","+"]
 if c come remove last element 
 if d come append last element 2*last element 
 if + come add last two element and add it
-
-
-algo create a 
 """
 sum = 0
 l = []
