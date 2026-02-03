@@ -18,20 +18,4 @@ for i in range(len(ops)):
         l.append(2*l[-1])
     else:
         l.append((l[-1]+l[-2]))
-# a = sum(l)
 print(l)
-
-
-
-
-# for i in ops:
-#     if i.isnumeric():
-#         sum+=int(i)
-#         l,r = r,int(i)
-#         index+=1
-#     elif i=="C":
-#         sum-=r
-
-
-
-    
